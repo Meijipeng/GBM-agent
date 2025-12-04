@@ -1,0 +1,21 @@
+{
+  "openai": {
+    "api_key": "sk-lZXv7v0hU8LySXsxWBc8D5FJA8wba3x8pP0Enxq99v4xqNxQ",
+    "base_url": "https://api.nuwaapi.com/v1",
+    "model": "gpt-5",
+    "embed_model": "text-embedding-3-large"
+  },
+  "pubmed": {
+    "email": "mjp110605@gmail.com",
+    "api_key": "f88f95057662bace0fc153f165dcee4e3608"
+  },
+  "rag": {
+    "chunk_char_size": 1200,
+    "chunk_char_overlap": 200,
+    "chroma_collection_name": "gbm_rag"
+  },
+  "paths": {
+    "data_dir": "data",
+    "chroma_db_dir": "chroma_db"
+  }
+}
